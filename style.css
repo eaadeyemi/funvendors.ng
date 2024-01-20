@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+.textarea {
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid red; */
+  margin-top: 50px;
+}
+.text {
+  font-weight: 500;
+  font-size: 20px;
+}
+.constructionLogo {
+  width: 80px;
+}
