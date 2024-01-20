@@ -9,6 +9,7 @@
 body {
   height: 100vh;
   overflow: hidden;
+  background-color: rgb(245, 255, 245);
 }
 .textarea {
   width: 100%;
@@ -22,4 +23,39 @@ body {
 }
 .constructionLogo {
   width: 80px;
+  margin-bottom: 20px;
+}
+.socialLinks {
+  display: flex;
+  width: 340px;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  padding: 10px;
+}
+.links {
+  margin-left: 10px;
+}
+.links li {
+  list-style: none;
+  display: inline;
+}
+.linksText {
+  font-size: 16px;
+  font-weight: 500;
+  /* margin-bottom: 20px; */
+}
+#linkLogo {
+  /* padding: auto; */
+  width: 24px;
+  margin-right: 5px;
+}
+#linkLogo:hover {
+  transform: scale(110%);
+}
+a {
+  text-decoration: none;
 }
